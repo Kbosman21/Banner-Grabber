@@ -3,8 +3,11 @@ This is a simple Python tool that connects to a specified IP address and port to
 
 ## 🚀 How to use:
 ➡️ Run the script in any Python environment 🖥️
+
 🌍 Enter the IP address of the target device when asked
+
 🔌 Enter the port number of the service you want to check
+
 💬 The tool will connect and show the banner message, if available
 
 ## ⚠️ Important:
