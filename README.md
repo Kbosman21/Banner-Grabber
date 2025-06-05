@@ -1,32 +1,12 @@
-🛡️ Python Banner Grabber
-A simple Python tool that connects to a target IP and port to retrieve and display service banners. Ideal for basic reconnaissance during ethical hacking and penetration testing.
+🐍 Python Banner Grabber
+This is a simple Python tool that connects to a specified IP address and port to grab the service banner from that network service. 🕵️‍♂️ Service banners often reveal info about software and versions running on the remote host — useful for reconnaissance and security checks.
 
-🔧 Features
-Connects to a user-specified IP and port
+🚀 How to use:
+➡️ Run the script in any Python environment 🖥️
+🌍 Enter the IP address of the target device when asked
+🔌 Enter the port number of the service you want to check
+💬 The tool will connect and show the banner message, if available
 
-Retrieves and displays service banner (if available)
+⚠️ Important:
+❗ Use this tool only on devices you own or have explicit permission to test. Unauthorized use can be illegal and unethical. 🚫
 
-Lightweight and beginner-friendly
-
-📝 Usage
-Run the script:
-
-bash
-python banner_grabber.py
-
-Input target details:
-IP address (e.g., 192.168.1.1)
-Port number (e.g., 21)
-
-Example output:
-Please enter the IP: 192.168.1.1
-Please enter the port: 21
-b'220 (vsFTPd 3.0.3)\r\n'
-
-⚠️ Disclaimer
-This tool is for educational and authorized security testing purposes only. Unauthorized scanning or probing of systems is illegal and unethical.
-
-💻 Requirements
-Python 3.x
-
-No external libraries required. 
